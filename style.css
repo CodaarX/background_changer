@@ -82,8 +82,13 @@
     display: flex;
     max-width: 70%;
     font-size: 2rem;
-    margin-top: 10%;
+    margin-top: 15rem;
  }
+
+ 
+ #h1{
+    font-size: 2rem;
+}
 }
 
 @media(max-height: 1000px){
