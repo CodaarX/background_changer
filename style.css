@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    overflow: hidden;
     padding: 0;
 }
 
@@ -61,9 +60,11 @@
     display: flex;
     max-width: 70%;
     font-size: 2rem;
-    margin-top: 40%;
     }
 
+    #div-body{
+        margin-top: 4rem;
+    }
     #h1{
         font-size: 1rem;
     }
@@ -73,10 +74,7 @@
         flex-direction: column;
         margin-top: 5rem;
     }
-
-
  }
-
 
  @media(max-width: 1600px){
     
@@ -86,8 +84,6 @@
     font-size: 2rem;
     margin-top: 10%;
  }
-
-
 }
 
 @media(max-height: 1000px){
@@ -105,10 +101,8 @@
     #button-div{
         display: flex;
         flex-direction: column;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
-
-
 }
 
 @media(max-height: 500px){
@@ -118,23 +112,20 @@
         max-width: 70%;
         font-size: 1rem;
         width: 100vw;
-        margin-top: 20rem;
+        margin-top: 2rem;
         font-weight: 300;
     }
 
     #h1{
         font-size: 1rem;
     }
-
 }
 
 @media(max-width: 950px){
     #changeBackground{
         display: flex;
         max-width: 70%;
-        font-size: 2rem;
-     
-        
+        font-size: 2rem;  
      }
     
     #h1{
@@ -144,10 +135,8 @@
     #button-div{
         display: flex;
         flex-direction: column;
-        margin-top: 5rem ;
+        margin-top: 2rem ;
      }
-    
-    
 }
 
 @media(max-width: 500px){
@@ -155,12 +144,24 @@
         display: flex;
         max-width: 70%;
         font-size: 2rem;
-        margin-top: 15%;
-        
+        margin-top: 7rem;
      }
     
     #h1{
-        font-size: 2rem;
+        font-size: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    #button-div{
+        margin-top: 7rem;
     }
     
+    .div-body{
+        height: 98vh;
+        width: auto;
+        border: black solid 5px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+    }
 }
